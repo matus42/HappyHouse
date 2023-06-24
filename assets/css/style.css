@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: #DFF8EB;
 }
 
 body {
@@ -26,4 +27,30 @@ h2 {
     float: left;
     font-size: 290%;
     font-weight: 800;
+}
+
+#menu {
+    font-size: 115%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 32px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu a:hover {
+    color: red;
+
 }
