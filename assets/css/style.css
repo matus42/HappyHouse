@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: #DFF8EB;
 }
 
 body {
@@ -14,6 +13,12 @@ body {
 }
 
 /* heading logo and nav */
+
+header {
+    height: 150px;
+    width: 100%;
+    background-color: #CDABED;
+}
 
 h1,
 h2 {
@@ -27,6 +32,7 @@ h2 {
     float: left;
     font-size: 290%;
     font-weight: 800;
+    margin-left: 50px;
 }
 
 #menu {
@@ -47,10 +53,9 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 140px;
 }
 
 #menu a:hover {
     color: red;
-
 }
