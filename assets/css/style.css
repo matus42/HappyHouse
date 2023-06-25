@@ -21,8 +21,7 @@ header {
     background-color: #CDABED;
 }
 
-h1,
-h2 {
+h1 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -64,18 +63,25 @@ h2 {
 /* main body section */
 
 #main-section {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background-color: #FFC2EE;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
-img {
+#img1 {
+    display: flex;
     max-width: 680px;
     border: 3px solid black;
     border-radius: 10px;
     float: left;
-    margin-top: 42px;
+    justify-content: center;
+    margin-top: 72px;
     margin-left: 42px;
-    margin-right: 42px;
+    margin-right: 60px;
+}
+
+.right-side {
+    line-height: 45px;
+    padding-top: 140px;
 }
