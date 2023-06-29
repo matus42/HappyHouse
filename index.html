@@ -19,7 +19,7 @@
             <h1 id="logo">Happy House</h1>
             <nav id="menu">
                 <ul>
-                    <li><a href="#sign-up">Sign Up</a></li>
+                    <li><a href="#form-section">Sign Up</a></li>
                     <li><a href="#about-us">About Us</a></li>
                     <li><a href="#home">Home</a></li>
                 </ul>
@@ -65,8 +65,29 @@
             Parent & Toddler Groups can be a great social network and can be especially
             helpful to parents who do not have family support close by.</p>
     </section>
-    <section>
-        sign up
+    <section id="form-section">
+        <h2>Sign Up Please <i class="fa-sharp fa-solid fa-heart"></i></h2>
+        <div id="signup-box">
+            <form action="#" method="post">
+                <tr>
+                    <td><label for="parentName">Parent Name: </label></td>
+                    <td><input type="text" id="parentName" name="parentName" required></td>
+                </tr>
+                <tr>
+                    <td label for="childName">Child Name: </td>
+                    <td><input type="text" id="childName" name="childName" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" class="submit-button">Submit</button>
+                    </td>
+                </tr>
+            </form>
+        </div>
     </section>
     <footer>
         adress and social links
