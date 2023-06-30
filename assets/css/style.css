@@ -63,7 +63,7 @@ h1 {
 /* main body section */
 
 #main-section {
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     background-color: #FFC2EE;
     /* display: inline-block; */
@@ -92,6 +92,7 @@ h1 {
 #about-us {
     height: 600px;
     width: 100%;
+    margin: 0 auto;
     background-color: #CDABED;
 }
 
@@ -113,8 +114,33 @@ h1 {
 
 /* form section */
 
+#form-section h2 {
+    padding: 0 0 22px 42px
+}
+
 #form-section {
     height: 600px;
     width: 100%;
     background-color: #FFC2EE;
+}
+
+.signup-container {
+    width: 400px;
+    float: left;
+    margin-left: 42px;
+    margin-top: 42px;
+    padding: 20px;
+    background-color: #CDABED;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 42px;
+}
+
+div input {
+    margin-left: 42px;
 }
