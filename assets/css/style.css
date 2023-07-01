@@ -125,7 +125,7 @@ h1 {
 }
 
 .signup-container {
-    width: 400px;
+    width: 350px;
     float: left;
     margin-left: 42px;
     margin-top: 42px;
@@ -143,4 +143,17 @@ h1 {
 
 div input {
     margin-left: 42px;
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #FFC2EE;
+    width: 200px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-left: 42px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    background-color: #FFC2EE;
+
 }
