@@ -90,9 +90,10 @@ h1 {
 /* About Us section */
 
 #about-us {
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 30px;
     background-color: #CDABED;
 }
 
@@ -119,7 +120,7 @@ h1 {
 }
 
 #form-section {
-    height: 600px;
+    min-height: 400px;
     width: 100%;
     background-color: #FFC2EE;
 }
@@ -153,7 +154,18 @@ div input {
     margin-top: 20px;
     margin-left: 42px;
     padding: 10px 10px 10px 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     background-color: #FFC2EE;
+    color: black;
+}
 
+.submit-button:hover {
+    background-color: #DFF8EB;
+}
+
+/* footer */
+
+footer {
+    min-height: 160px;
+    background-color: #CDABED;
 }
