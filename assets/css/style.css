@@ -169,3 +169,34 @@ footer {
     min-height: 160px;
     background-color: #CDABED;
 }
+
+.footer-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.address {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.address p {
+    display: inline-block;
+}
+
+.social-networks li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-networks i {
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+
+.home-button {
+    list-style-type: none;
+
+}
