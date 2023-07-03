@@ -16,7 +16,7 @@ body {
 /* heading logo and nav */
 
 header {
-    height: 150px;
+    min-height: 150px;
     width: 100%;
     background-color: #CDABED;
 }
@@ -66,7 +66,6 @@ h1 {
     min-height: 600px;
     width: 100%;
     background-color: #FFC2EE;
-    /* display: inline-block; */
 }
 
 #img1 {
@@ -197,6 +196,11 @@ footer {
 }
 
 .home-button {
-    list-style-type: none;
+    text-decoration: none;
+    font-size: 115%;
+    letter-spacing: 3px;
+}
 
+.home-button:hover {
+    color: red;
 }
