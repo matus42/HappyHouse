@@ -5,18 +5,24 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    text-decoration: none;
 }
 
 body {
     font-family: Adamina, sans-serif;
     font-weight: 300;
     color: #212F30;
+    background-color: #CDABED;
 }
 
 /* heading logo and nav */
 
 header {
-    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 140px;
     width: 100%;
     background-color: #CDABED;
 }
@@ -25,19 +31,28 @@ h1 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #111818
+    color: #111818;
+    list-style-type: none;
+}
+
+#home {
+    background-color: #CDABED;
 }
 
 #logo {
-    float: left;
     font-size: 320%;
     font-weight: 900;
-    margin-left: 50px;
+    list-style-type: none;
 }
 
 #menu {
+    display: flex;
+    align-items: center;
     font-size: 115%;
     letter-spacing: 3px;
+    background-color: #CDABED;
+    list-style-type: none;
+
 }
 
 #menu li {
@@ -63,26 +78,25 @@ h1 {
 /* main body section */
 
 #main-section {
-    min-height: 600px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
     background-color: #FFC2EE;
 }
 
 #img1 {
-    display: flex;
-    max-width: 680px;
+    display: grid;
+    max-width: 100%;
     border: 2px solid black;
     border-radius: 10px;
-    float: left;
-    justify-content: center;
-    margin-top: 72px;
-    margin-left: 42px;
-    margin-right: 60px;
+    margin: 10px;
 }
 
 .right-side {
-    line-height: 45px;
-    padding-top: 140px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    line-height: 42px;
 }
 
 
@@ -92,22 +106,15 @@ h1 {
     min-height: 600px;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding: 24px;
     background-color: #CDABED;
-}
-
-#about-us h2 {
-    padding-top: 42px;
-    margin-left: 42px;
 }
 
 #about-us h3 {
     line-height: 45px;
-    margin-left: 42px;
 }
 
 #about-us p {
-    margin-left: 42px;
     max-width: 1150px;
 }
 
@@ -115,7 +122,7 @@ h1 {
 /* form section */
 
 #form-section h2 {
-    padding: 0 0 22px 42px
+    padding: 0 0 22px 24px
 }
 
 #form-section {
@@ -125,7 +132,7 @@ h1 {
 }
 
 .signup-container {
-    width: 350px;
+    width: 300px;
     float: left;
     margin-left: 42px;
     margin-top: 42px;
@@ -138,11 +145,11 @@ h1 {
 .form-group label {
     display: block;
     margin-top: 10px;
-    margin-left: 42px;
+    margin-left: 24px;
 }
 
 div input {
-    margin-left: 42px;
+    margin-left: 24px;
     padding: 4px;
     border-radius: 3px;
     background-color: #FFC2EE;
@@ -163,7 +170,6 @@ div input {
 }
 
 /* footer */
-
 footer {
     min-height: 160px;
     background-color: #CDABED;
@@ -177,7 +183,6 @@ footer {
 .address {
     padding-top: 15px;
     padding-bottom: 15px;
-
 }
 
 .address p {
@@ -192,7 +197,10 @@ footer {
 .social-networks i {
     font-size: 20px;
     padding-top: 15px;
+}
 
+.social-networks i:hover {
+    color: red;
 }
 
 .home-button {
@@ -203,4 +211,71 @@ footer {
 
 .home-button:hover {
     color: red;
+}
+
+
+/* For screen sizes from 850px wide and down */
+@media (max-width:850px) {
+    #main-section {
+        grid-template-columns: auto;
+    }
+
+    #img1 {
+        width: auto;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+    }
+
+    #logo {
+        font-size: 1.8rem;
+        clear: both;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        padding-bottom: 24px;
+    }
+}
+
+/* For screen sizes from 675px wide and down */
+@media (max-width:675px) {
+    header {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background-color: #CDABED;
+        flex-direction: column-reverse;
+        padding: 24px 0 24px 0;
+    }
+
+    #menu,
+    #logo {
+        line-height: 100%;
+    }
+
+    #menu {
+        letter-spacing: 0;
+        font-size: 95%;
+    }
+
+    #about-us h3 {
+        line-height: 30px;
+    }
+}
+
+/* For screen sizes from 378px wide and down */
+@media (max-width:378px) {
+    .signup-container {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+        margin-top: 35px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
 }
