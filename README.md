@@ -1,39 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# HappyHouse Project
 
-Welcome,
+This project is a simple, intuitive website for Happy House, a baby & toddler club based in Mitchelstown, <br> Ireland. Its primary function is to provide users with information about the club and allow parents/guardians to sign up their children to the club.
+![Site view across devices](/assets/readme-images/layouts.png)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+- [UX](#ux "UX")
+  - [Site Purpose](#site-purpose "Site Purpose")
+  - [Site Goal](#site-goal "Site Goal")
+  - [Audience](#audience "Audience")
+- [Design](#design "Design")
+  - [Colour Scheme](#colour-scheme "Colour Scheme")
+  - [Typography](#typography "Typography")
+  - [Imagery](#imagery "Imagery")
+- [Features](#features "Features")
+- [Testing](#testing "Testing")
+  - [Validator Testing](#validator-testing "Validator Testing")
+- [Technologies Used](#technologies-used "Technologies Used")
+  - [Main Languages Used](#main-languages-used "Main Languages Used")
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
+- [Deployment](#deployment "Deployment")
+- [Credits](#credits "Credits")
+  !
 
-## Codeanywhere Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Site Purpose:
 
-`python3 -m http.server`
+The purpose of this website is to provide clear and comprehensive information about Happy House, a baby & toddler club based in Mitchelstown, Ireland. It also provides a convenient online method for parents/guardians to sign up their children for the club.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Site Goal:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The goal of the site is to encourage parents and guardians to join the club by offering them detailed information about the club's activities, timings, and benefits.
 
-`http_server`
+### Audience:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The target audience for this site are parents and guardians of children aged 0-4 years who are interested in joining a baby and toddler club.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Design:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The website follows a simple, user-friendly design.
 
-To log into the Heroku toolbelt CLI:
+### Colour scheme:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The site primarily uses a palette of three main colours:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+#CDABED: A light, almost pastel purple. This color is used for the body background and various other elements throughout the site.<br>
+#FFC2EE: A light pink shade that's used primarily for contrasting sections.<br>
+#212F30: A dark greenish-blue color used for the main text.
+[colours used on webpage](/assets/readme-images/colors.png)

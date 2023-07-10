@@ -52,7 +52,6 @@ h1 {
     letter-spacing: 3px;
     background-color: #CDABED;
     list-style-type: none;
-
 }
 
 #menu li {
@@ -101,7 +100,6 @@ h1 {
 
 
 /* About Us section */
-
 #about-us {
     min-height: 600px;
     width: 100%;
